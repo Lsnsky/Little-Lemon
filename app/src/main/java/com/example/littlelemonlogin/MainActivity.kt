@@ -46,7 +46,7 @@ fun LoginScreen(){
         TextField(onValueChange = {}, value = "", label={Text(text="Username")})
         TextField(onValueChange = {}, value = "", label={Text(text="Password")})
         Button({/*TODO*/}
-        , colors = ButtonDefaults.buttonColors(Color(0xFF495E57))){
+        , colors = ButtonDefaults.buttonColors(Color.Gray)){
             Text(text="Login", color = Color(0xFFEDEFEF))
         }
     }
